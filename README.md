@@ -6,14 +6,13 @@
 
 StudySphere AI is an AI-powered learning platform designed to help students manage their complete learning journey in one place.
 
-Instead of using separate tools for AI assistance, PDF learning, quizzes, roadmaps, study planning and progress tracking, StudySphere AI brings these features together into one personalized learning platform.
+It combines AI tutoring, PDF intelligence, personalized learning roadmaps, quizzes, study planning, progress tracking, chat history, and learning insights into a single platform.
 
 ---
 
-# 🏆 Hackathon
+## 🏆 International Hackathon Competition 2026
 
-**International Hackathon Competition 2026**
-
+**Hackathon:** International Hackathon Competition 2026  
 **Theme:** Open Innovation  
 **Category:** Software Development  
 **Project:** StudySphere AI  
@@ -21,302 +20,408 @@ Instead of using separate tools for AI assistance, PDF learning, quizzes, roadma
 
 ---
 
-# 🎯 Problem Statement
+## 🎯 Problem Statement
 
-Students have access to a large amount of learning content, but managing everything can become difficult.
+Students have access to a huge amount of educational content, but managing their learning journey can be difficult.
 
-Students often struggle with:
+Students commonly face problems such as:
 
-- Knowing what to study next
-- Creating a proper learning plan
+- Finding what to study next
+- Creating a structured learning plan
 - Understanding difficult topics
-- Learning from large PDF documents
-- Practicing with useful questions
+- Learning efficiently from large PDF documents
+- Practicing with relevant questions
 - Managing study tasks and deadlines
 - Identifying weak topics
-- Tracking their overall learning progress
+- Tracking learning progress
+- Revisiting previous AI conversations
 
-Using separate applications for each activity can make the learning process scattered and difficult to manage.
+Using different applications for each activity makes the learning process scattered and difficult to manage.
 
 ---
 
-# 💡 Our Solution
+## 💡 Our Solution
 
-**StudySphere AI** brings the complete learning journey into one platform.
+**StudySphere AI** brings the complete learning journey into one intelligent platform.
 
-It works as a personalized AI study assistant that helps students:
+The platform helps students:
 
 **Learn → Plan → Practice → Track → Improve**
 
-The platform combines AI tutoring, PDF analysis, personalized roadmaps, quizzes, study planning, progress tracking and learning history.
-
-The goal is to make studying more organized, personalized and easier to follow.
+Instead of functioning only as a question-answer chatbot, StudySphere AI acts as a continuous learning companion that helps students understand what to learn, practice it, monitor progress, identify weak areas, and decide what to focus on next.
 
 ---
 
-# ✨ Key Features
+## ✨ Key Features
 
-## 🤖 AI Tutor
+### 🤖 AI Tutor
+Students can ask questions and receive clear, student-friendly explanations. The tutor maintains recent conversation context so students can continue learning naturally.
 
-Students can ask questions and receive clear, student-friendly explanations.
+### 📄 PDF Intelligence
+Students can upload study materials and use AI to generate summaries, key points, flashcards, topics, and document-based questions and answers.
 
-The AI Tutor also maintains recent conversation context so students can continue their learning naturally.
+### 🗺️ Personalized AI Roadmap
+Students provide their learning goal, current skill level, available study hours, and target date. The AI generates a structured roadmap with phases, topics, projects, resources, and milestones.
 
----
+### 📝 AI Quiz Generator
+Students can generate practice questions based on a selected topic to test understanding and identify areas that need more practice.
 
-## 📄 PDF Intelligence
+### 📅 Smart Study Planner
+Students provide tasks, priorities, deadlines, and available study time. The AI recommends an organized study schedule.
 
-Students can upload study materials and use AI to understand them faster.
+### 📊 Progress Tracking
+Students can monitor quiz performance, completed tasks, learning activity, study progress, and topics studied.
 
-The system can generate:
+### 💬 Chat History
+Previous AI Tutor conversations are organized so students can easily revisit earlier discussions and continue learning.
 
-- Summary
-- Key points
-- Flashcards
-- Topics
-- Document-based questions and answers
+### 👤 Student Profile
+Students can view learning activity, study statistics, progress, quiz performance, and personal learning information.
 
----
-
-## 🗺️ AI Learning Roadmap
-
-Students can provide:
-
-- Learning goal
-- Current skill level
-- Available study hours
-- Target date
-
-The AI generates a structured learning roadmap with topics, goals, projects, resources and milestones.
+### 🧠 Study Risk Predictor
+The platform can analyze quiz performance, task completion, study consistency, and upcoming goals to identify areas that may need additional attention.
 
 ---
 
-## 📝 AI Quiz Generator
+## 🔄 How StudySphere AI Works
 
-Students can generate quizzes based on a selected topic.
-
-The system supports different question types and helps students practice what they have learned.
-
----
-
-## 📅 Smart Study Planner
-
-Students can provide their study tasks, priorities and available study time.
-
-The AI suggests an organized study schedule to help manage learning tasks more effectively.
-
----
-
-## 📊 Progress Tracking
-
-Students can monitor their learning activity and progress.
-
-The platform can track information such as:
-
-- Quiz performance
-- Completed tasks
-- Study activity
-- Learning progress
-- Topics studied
-
----
-
-## 💬 Chat History
-
-Previous AI Tutor conversations are stored and organized so students can easily revisit earlier discussions.
-
-Students can move between previous conversations instead of starting from the beginning every time.
+    STUDENT
+       ↓
+    Set Learning Goal
+       ↓
+    AI Understands Learning Needs
+       ↓
+    Personalized Roadmap
+       ↓
+    Learn + Practice
+       ↓
+    ┌───────────────┐
+    │               │
+    ↓               ↓
+    AI Tutor      Quizzes
+    │               │
+    └───────┬───────┘
+            ↓
+      Track Progress
+            ↓
+     Identify Weak Areas
+            ↓
+    Recommend Next Step
+            ↓
+     Continuous Learning
 
 ---
 
-## 👤 Student Profile
+## 🏗️ Project Structure
 
-The profile section provides a central place to view:
-
-- Learning activity
-- Study statistics
-- Progress
-- Quiz performance
-- Personal learning information
-
----
-
-## 🧠 Study Risk Predictor
-
-StudySphere AI can use learning signals such as:
-
-- Quiz performance
-- Task completion
-- Study consistency
-- Upcoming learning goals
-
-to identify areas that may need more attention.
-
-The system can then suggest targeted revision or practice.
-
----
-
-# 🔄 How StudySphere AI Works
-
-```text
-                    STUDENT
-                       │
-                       ▼
-                Set Learning Goal
-                       │
-                       ▼
-                AI Understands
-                       │
-                       ▼
-            Personalized Roadmap
-                       │
-                       ▼
-              Learn & Practice
-                       │
-             ┌─────────┴─────────┐
-             ▼                   ▼
-          AI Tutor             Quizzes
-             │                   │
-             └─────────┬─────────┘
-                       ▼
-                Track Progress
-                       │
-                       ▼
-               Identify Weak Areas
-
-🏗️ System Architecture
-┌───────────────────────────────────────┐
-│              FRONTEND                 │
-│          React + Vite                 │
-└──────────────────┬────────────────────┘
-                   │
-                   ▼
-┌───────────────────────────────────────┐
-│               BACKEND                 │
-│        Node.js + Express.js            │
-│              REST APIs                 │
-└───────────────┬───────────────┬───────┘
-                │               │
-                ▼               ▼
-      ┌────────────────┐  ┌─────────────────┐
-      │    MongoDB     │  │   FastAPI AI    │
-      │     Atlas      │  │     Service     │
-      └────────────────┘  └────────┬────────┘
-                                   │
-                                   ▼
-                            ┌─────────────┐
-                            │  AI Model   │
-                            │ / AI API    │
-                            └─────────────┘
-
-#🛠️ Technology Stack
-Frontend
-React
-Vite
-JavaScript
-CSS
-Responsive UI
-Backend
-Node.js
-Express.js
-REST API
-Mongoose
-AI Service
-Python
-FastAPI
-Google GenAI API
-Database
-MongoDB
-MongoDB Atlas
-PDF Processing
-PyMuPDF
-PDF text extraction
-AI document analysis
-Development Tools
-Git
-GitHub
-VS Code
-Postman
-
-#📁 Project Structure
-StudySphere-AI/
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── ...
-│
-├── backend/
-│   ├── src/
-│   ├── package.json
-│   └── ...
-│
-├── ai-service/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── ...
-│
-├── .gitignore
-├── README.md
-└── ...
+    StudySphere-AI/
+    │
+    ├── frontend/
+    │   ├── src/
+    │   │   ├── components/
+    │   │   ├── pages/
+    │   │   ├── services/
+    │   │   ├── hooks/
+    │   │   ├── context/
+    │   │   └── assets/
+    │   ├── public/
+    │   ├── package.json
+    │   └── ...
+    │
+    ├── backend/
+    │   ├── src/
+    │   │   ├── controllers/
+    │   │   ├── routes/
+    │   │   ├── models/
+    │   │   ├── middleware/
+    │   │   ├── services/
+    │   │   └── server.js
+    │   ├── package.json
+    │   └── ...
+    │
+    ├── ai-service/
+    │   ├── main.py
+    │   ├── requirements.txt
+    │   └── ...
+    │
+    ├── .gitignore
+    ├── README.md
+    └── ...
 
 ---
 
-#🌟 What Makes StudySphere AI Different?
+## 🏗️ System Architecture
+
+    ┌─────────────────────────────────────────┐
+    │                 FRONTEND                 │
+    │               React + Vite               │
+    └────────────────────┬────────────────────┘
+                         │
+                         ▼
+    ┌─────────────────────────────────────────┐
+    │                  BACKEND                 │
+    │          Node.js + Express.js            │
+    │               REST APIs                  │
+    └──────────────┬───────────────┬──────────┘
+                   │               │
+                   ▼               ▼
+          ┌────────────────┐  ┌─────────────────┐
+          │    MongoDB     │  │   FastAPI AI    │
+          │     Atlas      │  │     Service     │
+          └────────────────┘  └────────┬────────┘
+                                       │
+                                       ▼
+                                ┌─────────────┐
+                                │  AI Model   │
+                                │    / API    │
+                                └─────────────┘
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+- React
+- Vite
+- JavaScript
+- CSS
+- Responsive UI
+
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+- Mongoose
+
+### AI Service
+- Python
+- FastAPI
+- Google GenAI API
+
+### Database
+- MongoDB
+- MongoDB Atlas
+- Mongoose
+
+### Document Processing
+- PyMuPDF
+- PDF text extraction
+- AI document analysis
+
+### Development Tools
+- Git
+- GitHub
+- VS Code
+- Postman
+
+---
+
+## ⚙️ Local Setup
+
+### Prerequisites
+
+- Node.js
+- npm
+- Python 3
+- MongoDB Atlas account
+- Git
+
+### Frontend
+
+    cd frontend
+    npm install
+    npm run dev
+
+### Backend
+
+    cd backend
+    npm install
+    npm run dev
+
+Create a backend `.env` file:
+
+    PORT=5000
+    MONGODB_URI=your_mongodb_connection_string
+    JWT_SECRET=your_secret
+    FRONTEND_URL=your_frontend_url
+    AI_SERVICE_URL=your_ai_service_url
+
+### AI Service
+
+    cd ai-service
+    python -m venv venv
+
+Windows:
+
+    venv\Scripts\activate
+
+Install dependencies:
+
+    pip install -r requirements.txt
+
+Create `.env`:
+
+    GEMINI_API_KEY=your_api_key
+
+Run:
+
+    uvicorn main:app --reload
+
+---
+
+## 🔐 Security
+
+Sensitive credentials must never be committed to GitHub.
+
+Never upload:
+
+- `.env`
+- `.env.local`
+- `.env.production`
+- API keys
+- MongoDB passwords
+- JWT secrets
+- Private tokens
+- Credentials
+
+Use environment variables for sensitive configuration.
+
+---
+
+## 🧪 Main User Journey
+
+    Register / Login
+          ↓
+    Student Dashboard
+          ↓
+    Set Learning Goal
+          ↓
+    Generate AI Roadmap
+          ↓
+    Study with AI Tutor
+          ↓
+    Upload & Analyze PDFs
+          ↓
+    Generate Quizzes
+          ↓
+    Create Study Plan
+          ↓
+    Track Progress
+          ↓
+    Review Chat History
+          ↓
+    Identify Weak Topics
+          ↓
+    Get Next Learning Recommendation
+
+---
+
+## 🌟 What Makes StudySphere AI Different?
 
 Many AI learning tools mainly follow:
 
-Question → Answer
+**Question → Answer**
 
 StudySphere AI focuses on a complete learning cycle:
 
-Question
-   ↓
-Learn
-   ↓
-Practice
-   ↓
-Track
-   ↓
-Identify Weakness
-   ↓
-Improve
-   ↓
-Next Action
+**Question → Learn → Practice → Track → Identify Weakness → Improve → Next Action**
 
-The goal is to make AI a continuous learning companion, not just a chatbot.
-
-----
-
-#🎯 Real-World Impact
-
-StudySphere AI aims to help students:
-
-Reduce scattered learning
-Organize study activities
-Understand difficult topics
-Create personalized learning plans
-Practice more effectively
-Identify weak areas earlier
-Track their learning journey
-Decide what to focus on next
-📈 Future Improvements
+The goal is to transform AI from a simple chatbot into a continuous learning companion.
 
 ---
 
-##Future versions can include:
+## 🎯 Real-World Impact
 
-**📱 Mobile application**
-🎙️ Voice-based AI Tutor
-📅 Calendar integration
-🌐 Multilingual learning
-📊 Advanced learning analytics
-👨‍🏫 Teacher dashboards
-🏫 Institution dashboards
-🤖 Specialized AI study agents
-🔔 Smart reminders
-📚 More learning resource integrations
+StudySphere AI aims to help students:
 
-     │
-             Continuous Learning
+- Reduce scattered learning
+- Organize study activities
+- Understand difficult topics
+- Create personalized learning plans
+- Practice more effectively
+- Identify weak areas earlier
+- Track their learning journey
+- Decide what to focus on next
+
+---
+
+## 🚀 Future Improvements
+
+### 📱 Mobile Learning
+Android and iOS applications for learning plans, AI Tutor, quizzes, and progress tracking.
+
+### 🎙️ Voice-Based AI Tutor
+Voice input and voice responses for more natural interaction.
+
+### 📅 Calendar Integration
+Connect study schedules with calendars, classes, exams, and deadlines.
+
+### 🌐 Multilingual Learning
+Support multiple languages for wider accessibility.
+
+### 📊 Advanced Learning Analytics
+Show study consistency, topic performance, improvement trends, and learning patterns.
+
+### 👨‍🏫 Teacher Dashboard
+Allow teachers to create materials, assign quizzes, monitor progress, and provide support.
+
+### 🏫 Institution Dashboard
+Provide institution-level learning analytics for colleges and educational organizations.
+
+### 🤖 Specialized AI Study Agents
+Add specialized assistants such as Research Assistant, Coding Tutor, Exam Preparation Assistant, Career Guidance Assistant, and Project Mentor.
+
+### 🔔 Smart Reminders
+Generate intelligent reminders based on deadlines, learning activity, and study consistency.
+
+### 📚 Learning Resource Integration
+Recommend trusted educational resources based on student goals and skill level.
+
+### 🧠 Adaptive Learning
+Automatically adjust roadmap difficulty and recommended topics based on performance.
+
+### 🎯 Personalized Weakness Detection
+Detect weak concepts and automatically generate targeted practice.
+
+---
+
+
+## 🏆 Hackathon Submission
+
+**International Hackathon Competition 2026**
+
+**Theme:** Open Innovation
+
+**Project:** StudySphere AI
+
+**Participant:** Jamuna
+
+StudySphere AI is designed to solve a real-world education problem using artificial intelligence and full-stack web technologies.
+
+---
+
+## 👩‍💻 Creator
+
+### Jamuna
+
+Computer Science & Engineering Student
+
+**Interests:**
+- Artificial Intelligence
+- Web Development
+- Cybersecurity
+- Full-Stack Development
+- Building practical technology solutions
+
+
+
+
+# 🚀 StudySphere AI
+
+### Learn smarter. Stay ahead.
+
+**International Hackathon Competition 2026**
+
+
+
+</div>
