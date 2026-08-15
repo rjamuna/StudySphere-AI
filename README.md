@@ -183,6 +183,81 @@ The system can then suggest targeted revision or practice.
                        │
                        ▼
                Identify Weak Areas
+
+🏗️ System Architecture
+┌───────────────────────────────────────┐
+│              FRONTEND                 │
+│          React + Vite                 │
+└──────────────────┬────────────────────┘
+                   │
+                   ▼
+┌───────────────────────────────────────┐
+│               BACKEND                 │
+│        Node.js + Express.js            │
+│              REST APIs                 │
+└───────────────┬───────────────┬───────┘
+                │               │
+                ▼               ▼
+      ┌────────────────┐  ┌─────────────────┐
+      │    MongoDB     │  │   FastAPI AI    │
+      │     Atlas      │  │     Service     │
+      └────────────────┘  └────────┬────────┘
+                                   │
+                                   ▼
+                            ┌─────────────┐
+                            │  AI Model   │
+                            │ / AI API    │
+                            └─────────────┘
+🛠️ Technology Stack
+Frontend
+React
+Vite
+JavaScript
+CSS
+Responsive UI
+Backend
+Node.js
+Express.js
+REST API
+Mongoose
+AI Service
+Python
+FastAPI
+Google GenAI API
+Database
+MongoDB
+MongoDB Atlas
+PDF Processing
+PyMuPDF
+PDF text extraction
+AI document analysis
+Development Tools
+Git
+GitHub
+VS Code
+Postman
+📁 Project Structure
+StudySphere-AI/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── ...
+│
+├── backend/
+│   ├── src/
+│   ├── package.json
+│   └── ...
+│
+├── ai-service/
+│   ├── main.py
+│   ├── requirements.txt
+│   └── ...
+│
+├── .gitignore
+├── README.md
+└── ...
                        │
                        ▼
               Recommend Next Step
