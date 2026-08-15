@@ -209,7 +209,7 @@ The system can then suggest targeted revision or practice.
                             │ / AI API    │
                             └─────────────┘
 
-🛠️ Technology Stack
+#🛠️ Technology Stack
 Frontend
 React
 Vite
@@ -238,7 +238,7 @@ GitHub
 VS Code
 Postman
 
-📁 Project Structure
+#📁 Project Structure
 StudySphere-AI/
 │
 ├── frontend/
@@ -262,7 +262,7 @@ StudySphere-AI/
 └── ...
 
 
-🌟 What Makes StudySphere AI Different?
+#🌟 What Makes StudySphere AI Different?
 
 Many AI learning tools mainly follow:
 
@@ -286,7 +286,7 @@ Next Action
 
 The goal is to make AI a continuous learning companion, not just a chatbot.
 
-🎯 Real-World Impact
+#🎯 Real-World Impact
 
 StudySphere AI aims to help students:
 
@@ -300,7 +300,7 @@ Track their learning journey
 Decide what to focus on next
 📈 Future Improvements
 
-Future versions can include:
+#Future versions can include:
 
 📱 Mobile application
 🎙️ Voice-based AI Tutor
