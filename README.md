@@ -208,6 +208,7 @@ The system can then suggest targeted revision or practice.
                             │  AI Model   │
                             │ / AI API    │
                             └─────────────┘
+
 🛠️ Technology Stack
 Frontend
 React
@@ -236,6 +237,7 @@ Git
 GitHub
 VS Code
 Postman
+
 📁 Project Structure
 StudySphere-AI/
 │
