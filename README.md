@@ -305,9 +305,9 @@ Decide what to focus on next
 
 ---
 
-#Future versions can include:
+##Future versions can include:
 
-📱 Mobile application
+**📱 Mobile application**
 🎙️ Voice-based AI Tutor
 📅 Calendar integration
 🌐 Multilingual learning
